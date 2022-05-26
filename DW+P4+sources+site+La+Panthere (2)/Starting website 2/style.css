@@ -372,7 +372,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color: #212121;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #212121!important;
 }
 
 .container {
@@ -1039,4 +1039,52 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/* Ajout pour l'adaptation graphique de la page par rapport au SEO */
+
+.citation{
+    font-family:helvetica,arial,sans-serif;
+    max-width:540px;
+    font-size:20px;
+    font-style:italic;
+    font-weight:300;
+    margin:auto;
+    margin-bottom:5px;
+    line-height:22px;
+}
+
+.profile_ceo{
+    font-family:helvetica,arial,sans-serif;
+    font-size:18px;
+    font-weight:lighter;
+}
+.row_text{
+    font-size:22px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight:400;
+    max-width:65%;
+    margin:auto;
+    margin-bottom:10px;
+}
+.row_text2{
+    font-size:22px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight:400;
+    max-width:430px;
+    margin:auto;
+    margin-bottom:10px;
+}
+ul{
+    list-style-type: none;
+
+}
+.col-partner{
+    display:flex;
+    flex-direction:row;
+    list-style-type: none;
+}
+.partnership{
+    display:flex;
+    flex-direction:row;
 }
