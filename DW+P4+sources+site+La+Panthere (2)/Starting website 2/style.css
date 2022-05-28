@@ -1128,3 +1128,42 @@ footer span{
 select{
     padding-right:20px;
 }
+/*Correction footer, supression lien "page2" sur la page 2, balise li existante pour futur onglet*/
+header a{
+    margin-right:50px;
+    padding-bottom:20px;
+    text-decoration:none;
+}
+
+header img{
+    padding-top:30px;
+}
+/*correction footer, ajout liens partenaires reseaux sociaux*/
+.social_network, footer p{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-top:10px;
+}
+footer a{
+    padding:0 10px;
+    display:flex;
+    text-decoration:none;
+}
+footer span{
+    align-self:center;
+    padding:0 0 10px 0;
+}
+footer li{
+    display:flex;
+    flex-direction:row;
+}
+
+.col-sm-12{
+    padding-top:20px;
+}
+/*Création d'un focus pour la selection*/
+*:focus-visible{
+    border:1px #F3976C solid;
+    transform:brightness(1.1)
+}
