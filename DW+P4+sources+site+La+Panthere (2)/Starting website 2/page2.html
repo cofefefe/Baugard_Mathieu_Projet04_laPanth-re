@@ -63,7 +63,7 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<h1 class="text-center hero-bloc-text tc-white">
-					Parlons web design !
+					Contactez l'agence La Panthère pour un devis
 				</h1>
 				<p class="text-center mg-lg tc-white tight-width-whitespace">
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
@@ -82,27 +82,34 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input class="name" class="form-control" placeholder="Kevin Dupont"required />
 					</div>
 					<div class="form-group">
 						<label for="email">
 							Adresse email
 						</label>
-						<input placeholder="email" id="email" class="form-control" type="email" required />
+						<input placeholder="exemple@exemple.com" class="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="Réseaux">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<select name="choice">
+							<option value="">Choisissez une option</option>
+							<option value="réseaux sociaux">Réseaux sociaux</option>
+							<option value="bouche à oreille">Bouche à oreille</option>
+							<option value="recherche internet">Recherche internet</option>
+							<option value="Partenaires">Par nos partenaires</option>
+							<option value="portfolio">Par nos créations</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="brief">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="Parlez nous de votre entreprise, votre projet, vos envies, vos clients et vos besoins"required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer

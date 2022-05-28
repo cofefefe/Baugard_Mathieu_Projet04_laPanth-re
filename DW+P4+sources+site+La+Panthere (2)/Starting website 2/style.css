@@ -53,7 +53,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 0px 50px;
 }
 
 .bg-center,
@@ -775,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #212121;
 }
 
 .btn-atomic-tangerine {
@@ -1043,6 +1043,7 @@ h4 {
 
 /* Ajout pour l'adaptation graphique de la page par rapport au SEO */
 
+/*Remplacement img texte par texte pur*/
 .citation{
     font-family:helvetica,arial,sans-serif;
     max-width:540px;
@@ -1053,12 +1054,12 @@ h4 {
     margin-bottom:5px;
     line-height:22px;
 }
-
 .profile_ceo{
     font-family:helvetica,arial,sans-serif;
     font-size:18px;
     font-weight:lighter;
 }
+
 .row_text{
     font-size:22px;
     font-family: helvetica, arial, sans-serif;
@@ -1077,14 +1078,53 @@ h4 {
 }
 ul{
     list-style-type: none;
-
 }
+/*Modifications du footer, suppression de lien et adaptation du contenu graphique*/
 .col-partner{
     display:flex;
     flex-direction:row;
+    margin-top:40px;
     list-style-type: none;
 }
 .partnership{
     display:flex;
     flex-direction:row;
+}
+footer li{
+    padding: 0 40px;
+}
+footer i{
+    padding: 0 5px;
+}
+footer span{
+    font-weight:bold;
+    font-size:16px;
+}
+/*Modification du h1 invisible, alignement*/
+.tc-white{
+    text-align:center;
+}
+.tight-width-whitespace{
+    font-weight:bold;
+    font-size:12px;
+}
+/*Correction du formulaire, alignement des formulaires, optimisation présentation*/
+.form-group{
+    margin-bottom:15px;
+}
+.email{
+    position:relative;
+    left:145px;
+}
+.name{
+    position:relative;
+    left:215px;
+}
+#message{
+    margin-top:15px;
+    padding-right:200px;
+    padding-bottom:100px;
+}
+select{
+    padding-right:20px;
 }
