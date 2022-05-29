@@ -640,7 +640,6 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -652,6 +651,9 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #212121!important;
+}
+.bgc-dark-slate-blue .container h2{
+    color:#FFFFFF!important;
 }
 
 .container {
@@ -692,7 +694,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #212121!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -700,8 +702,10 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    display:flex;
+    justify-content:space-around;
+    margin-left:100px;
+    margin-right:100px;
 }
 
 h2 {
@@ -723,7 +727,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #fffffF!important;
 }
 
 h4 {
@@ -780,7 +784,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: rgba(0, 0, 0, .8)!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1130,9 +1134,12 @@ select{
 }
 /*Correction footer, supression lien "page2" sur la page 2, balise li existante pour futur onglet*/
 header a{
-    margin-right:50px;
+    margin-right:150px;
     padding-bottom:20px;
     text-decoration:none;
+}
+header{
+    align-items:center;
 }
 
 header img{
@@ -1166,4 +1173,9 @@ footer li{
 *:focus-visible{
     border:1px #F3976C solid;
     transform:brightness(1.1)
+}
+.presentation-txt{
+    font-size:18px;
+    font-weight:bold;
+    color:#212121!important;
 }
