@@ -656,9 +656,6 @@ a {
     color:#FFFFFF!important;
 }
 
-.container {
-    max-width: 1000px;
-}
 
 .hero-bloc-text {
     font-size: 38px;
@@ -703,9 +700,7 @@ p {
 
 .social {
     display:flex;
-    justify-content:space-around;
-    margin-left:100px;
-    margin-right:100px;
+    justify-content:center;  
 }
 
 h2 {
@@ -1089,6 +1084,7 @@ ul{
     flex-direction:row;
     margin-top:40px;
     list-style-type: none;
+    justify-content:center;
 }
 .partnership{
     display:flex;
@@ -1116,11 +1112,11 @@ footer span{
 .form-group{
     margin-bottom:15px;
 }
-.email{
+#email{
     position:relative;
     left:145px;
 }
-.name{
+#name{
     position:relative;
     left:215px;
 }
@@ -1149,33 +1145,52 @@ header img{
 .social_network, footer p{
     display:flex;
     flex-direction:row;
-    justify-content:center;
     margin-top:10px;
+    justify-content:center;
 }
 footer a{
     padding:0 10px;
     display:flex;
     text-decoration:none;
+    align-self:center;
+}
+.col-sm-12{
+    display:flex;
+    flex-direction:column;
+    padding-top:20px;
+    min-width:100%;
 }
 footer span{
     align-self:center;
-    padding:0 0 10px 0;
+    padding:0 0 5px 0;
 }
 footer li{
     display:flex;
     flex-direction:row;
 }
 
-.col-sm-12{
+.col-partner{
     padding-top:20px;
 }
 /*Création d'un focus pour la selection*/
 *:focus-visible{
-    border:1px #F3976C solid;
-    transform:brightness(1.1)
+    border:2px #F3976C solid;
+    transform:brightness(1.1);
+    box-shadow:#212121 1px 1px 5px 3px;
 }
 .presentation-txt{
     font-size:18px;
     font-weight:bold;
     color:#212121!important;
+}
+/*correction contraste h1*/
+
+.col-sm-12 .secondary_title{
+    color:#212121!important;
+}
+/*Adaptation de l'image suite à l'implémentation de balise header */
+header img{
+    width:216px;
+    height:70px;
+    padding-top:10px;
 }
