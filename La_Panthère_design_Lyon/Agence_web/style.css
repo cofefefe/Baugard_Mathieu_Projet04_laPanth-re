@@ -910,29 +910,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .navbar .nav {
-        padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!important;
-    }
-    .navbar.row {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .site-navigation {
-        position: inherit;
-        transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
-    }
-    .nav > li {
-        margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
-        text-align: left;
-        padding-left: 15px;
-        width: 100%;
-    }
+   
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
@@ -959,7 +937,6 @@ h4 {
     }
     .navbar-collapse {
         padding: 0;
-        overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
     }
@@ -1085,7 +1062,7 @@ ul{
 .col-partner{
     display:flex;
     flex-direction:row;
-    margin-top:40px;
+    margin-top:10px;
     list-style-type: none;
     justify-content:center;
 }
@@ -1147,7 +1124,7 @@ footer span{
 }
 .nouscontacter{
     position:relative;
-    left:1050px;
+    left:60%;
     bottom:450px;
     border:double #F3976C 2px;
     line-height:30px;
@@ -1164,26 +1141,28 @@ footer span{
 select{
     padding-right:20px;
 }
-#email:not(:focus):invalid{
+#email:focus:invalid, #name:focus:invalid{
     background-color:rgb(235, 138, 138);
-    border-radius:10px
+    border-radius:4px
 }
-#email:not(:focus):valid{
+#email:focus:valid, #name:focus:valid{
     background-color:rgb(133, 246, 133);
-    border-radius:10px
+    border-radius:4px
 }
-/*Correction footer, supression lien "page2" sur la page 2, balise li existante pour futur onglet*/
+
+
+
+/*Correction header, supression lien "page2" sur la page 2, balise li existante pour futur onglet*/
 header a{
-    margin-right:32px;
-    padding-bottom:20px;
+    margin-right:5%;
     text-decoration:none;
 }
 header{
     align-items:center;
+    position:relative;
 }
-
-header img{
-    padding-top:30px;
+.contact_link{
+    min-width:100%;
 }
 /*correction footer, ajout liens partenaires reseaux sociaux*/
 .social_network, footer p{
@@ -1194,6 +1173,7 @@ header img{
 }
 .footerp2{
     margin-top:-210px;
+    min-height:210px;
 }
 footer a{
     padding:0 10px;
@@ -1240,4 +1220,47 @@ header img{
     height:70px;
     padding-top:10px;
 }
+header{
+    position:relative;
+}
+/*ajout règle positionnement nav "accueil" sur la p2*/
 
+@media (min-width:768px){
+    header .index_p2{
+        position:relative;
+        bottom:20px;
+        right:99%;
+    }
+}
+@media (max-width:768px){
+    header .index_p2{
+        position:relative;
+        bottom:30px;
+        right:70%;
+    }
+    .container{
+        padding-top:20px;
+    }
+    header .navbar-header{
+        max-height:30px;
+    }
+}
+@media (min-width:1024px){
+    header .index_p2{
+        position:relative;
+        bottom:20px;
+        right:200px;
+    }
+}
+
+@media (max-width:1028px){
+
+    .nouscontacter{
+    position:relative;
+    left:33%;
+    bottom:60px; 
+    }   
+    .footerp2{
+        margin-top:-65px;
+    }
+}
