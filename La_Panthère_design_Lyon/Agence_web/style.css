@@ -45,7 +45,8 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 35px 50px;
+    position:relative;
 }
 
 .bloc-md {
@@ -1092,6 +1093,20 @@ ul{
     display:flex;
     flex-direction:row;
 }
+
+@media (max-width:768px) {
+    .partnership{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    footer span{
+        margin-left:15px;
+    }
+    footer a{
+        max-width:50px;
+        margin-top:10px;
+    }
+}
 footer li{
     padding: 0 40px;
 }
@@ -1113,22 +1128,49 @@ footer span{
 /*Correction du formulaire, alignement des formulaires, optimisation présentation*/
 .form-group{
     margin-bottom:15px;
+    display:flex;
+    flex-direction:column;
 }
-#email{
-    position:relative;
-    left:145px;
+
+#name, #reseaux, #email{
+    max-width:250px;
+    height:20px;
+    margin-top:10px;
+    transition:background-color 500ms;
 }
-#name{
-    position:relative;
-    left:215px;
-}
+
 #message{
-    margin-top:15px;
+    max-width:400px;
     padding-right:200px;
     padding-bottom:100px;
+    margin-top:10px;
+}
+.nouscontacter{
+    position:relative;
+    left:1050px;
+    bottom:450px;
+    border:double #F3976C 2px;
+    line-height:30px;
+    font-size:16px;
+    max-width:300px;
+    padding:20px;
+}
+.nouscontacter span{
+    font-weight:bold;
+    font-size:13px;
+    font-style:italic;
+    color:#212121
 }
 select{
     padding-right:20px;
+}
+#email:not(:focus):invalid{
+    background-color:rgb(235, 138, 138);
+    border-radius:10px
+}
+#email:not(:focus):valid{
+    background-color:rgb(133, 246, 133);
+    border-radius:10px
 }
 /*Correction footer, supression lien "page2" sur la page 2, balise li existante pour futur onglet*/
 header a{
@@ -1149,6 +1191,9 @@ header img{
     flex-direction:row;
     margin-top:10px;
     justify-content:center;
+}
+.footerp2{
+    margin-top:-210px;
 }
 footer a{
     padding:0 10px;
@@ -1195,3 +1240,4 @@ header img{
     height:70px;
     padding-top:10px;
 }
+
