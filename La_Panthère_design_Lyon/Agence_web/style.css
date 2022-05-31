@@ -1093,7 +1093,17 @@ ul{
     display:flex;
     flex-direction:row;
 }
-
+footer li{
+    padding: 0 40px;
+}
+footer i{
+    padding: 0 5px;
+}
+footer span{
+    font-weight:bold;
+    font-size:16px;
+}
+/*Responsive footer partenariat*/
 @media (max-width:768px) {
     .partnership{
         display:flex;
@@ -1106,16 +1116,6 @@ ul{
         max-width:50px;
         margin-top:10px;
     }
-}
-footer li{
-    padding: 0 40px;
-}
-footer i{
-    padding: 0 5px;
-}
-footer span{
-    font-weight:bold;
-    font-size:16px;
 }
 /*Modification du h1 invisible, alignement*/
 .tc-white{
@@ -1174,7 +1174,7 @@ select{
 }
 /*Correction footer, supression lien "page2" sur la page 2, balise li existante pour futur onglet*/
 header a{
-    margin-right:150px;
+    margin-right:32px;
     padding-bottom:20px;
     text-decoration:none;
 }
