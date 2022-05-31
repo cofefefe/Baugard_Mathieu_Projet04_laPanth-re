@@ -780,6 +780,8 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: rgba(0, 0, 0, .8)!important;
+    margin:auto;
+    max-width:200px;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1179,8 +1181,7 @@ footer li{
     box-shadow:#212121 1px 1px 5px 3px;
 }
 .presentation-txt{
-    font-size:18px;
-    font-weight:bold;
+    font-size:13px;
     color:#212121!important;
 }
 /*correction contraste h1*/
