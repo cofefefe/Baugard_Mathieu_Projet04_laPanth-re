@@ -194,10 +194,6 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
-}
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -653,9 +649,7 @@ a {
     font-weight: 400;
     color: #212121!important;
 }
-.bgc-dark-slate-blue .container h2{
-    color:#FFFFFF!important;
-}
+
 
 
 .hero-bloc-text {
@@ -1021,7 +1015,13 @@ h4 {
 }
 
 /* Ajout pour l'adaptation graphique de la page par rapport au SEO */
+main .mg-md h2{
+    color:black!important;
+}
 
+.container .row h4{
+    color:white!important;
+}
 /*Remplacement img texte par texte pur*/
 .citation{
     font-family:helvetica,arial,sans-serif;
@@ -1190,6 +1190,7 @@ footer a{
 footer span{
     align-self:center;
     padding:0 0 5px 0;
+    color:black;
 }
 footer li{
     display:flex;

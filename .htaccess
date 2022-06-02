@@ -10,6 +10,7 @@
     ExpiresByType image/gif "access plus 1 month"
     ExpiresByType image/png "access plus 1 month"
     ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType image/webp "access plus 1 month"
     
     AddType image/ico .ico
     ExpiresByType image/ico "access plus 1 month"
