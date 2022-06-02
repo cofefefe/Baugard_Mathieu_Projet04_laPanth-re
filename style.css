@@ -1270,7 +1270,7 @@ header{
     }
 }
 
-.image-resize-mode{
+.col-sm-12 img{
     width:100px;
     height:100px;
 }
