@@ -1274,3 +1274,7 @@ header{
     width:100px;
     height:100px;
 }
+.col-sm-6 img{
+    width:270px;
+    height:270px;
+}
