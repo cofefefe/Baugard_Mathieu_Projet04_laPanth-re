@@ -1273,11 +1273,13 @@ header{
     }
     .btn{
         width:140px;
-        margin-bottom:10px;
     }
 }
 
 .col-sm-12 img{
     width:100px;
     height:100px;
+}
+.btn{
+    margin-bottom:10px;
 }
