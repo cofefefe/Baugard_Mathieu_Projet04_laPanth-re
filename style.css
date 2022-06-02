@@ -736,6 +736,10 @@ h4 {
 .portfolio-thumb {
     margin-bottom: 24px;
 }
+.portfolio-thumb img{
+    width:270px;
+    height:270px;
+}
 
 .portfolio-row {
     margin-bottom: 44px;
@@ -1264,4 +1268,9 @@ header{
     .footerp2{
         margin-top:-65px;
     }
+}
+
+.image-resize-mode{
+    width:100px;
+    height:100px;
 }
