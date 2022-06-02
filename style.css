@@ -781,6 +781,8 @@ h4 {
     color: rgba(0, 0, 0, .8)!important;
     margin:auto;
     max-width:200px;
+    margin-bottom:20px;
+    margin-right:100%;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1128,13 +1130,14 @@ footer span{
 }
 .nouscontacter{
     position:relative;
-    left:60%;
-    bottom:450px;
+    
+    top:50px;
     border:double #F3976C 2px;
     line-height:30px;
     font-size:16px;
     max-width:300px;
     padding:20px;
+    margin-bottom:20px;
 }
 .nouscontacter span{
     font-weight:bold;
@@ -1262,11 +1265,14 @@ header{
 
     .nouscontacter{
     position:relative;
-    left:33%;
-    bottom:60px; 
+    left:33%; 
+    margin-top:-80px
     }   
     .footerp2{
-        margin-top:-65px;
+        margin-top:15px;
+    }
+    .btn{
+        width:140px;
     }
 }
 
